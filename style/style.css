@@ -45,7 +45,7 @@
 }
 .banner img{
     position: relative;
-    top: 25px;
+    top: 30px;
 }
 .banner-title{
     font-size:52px;
@@ -69,4 +69,19 @@
     border-radius: 41px;
     background-color: #E02C6D;
     color: #FFFFFF;
+}
+.logos{
+    max-width: 1110px;
+    border-top: 1px solid rgba(197, 191, 191, 0.151);
+    border-bottom: 1px solid rgba(197, 191, 191, 0.151);
+    height: 110px;
+    margin: 0 auto;
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    gap:60px
 }
