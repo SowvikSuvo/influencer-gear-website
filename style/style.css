@@ -195,16 +195,16 @@ p.card-info {
 
     .nav-banner,
     .nav-link {
-        justify-content: center;
+        justify-items: center;
         align-items: center;
         text-align: center;
     }
 
     .image {
-        width: 257px;
-        height: 257px;
+       width: 100%;
         margin-top: 5px;
-        /* background-image: none; */
+        text-align: center;
+        justify-content: center;
     }
 
 
@@ -212,7 +212,7 @@ p.card-info {
 
         font-size: 25px;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 5px;
         justify-content: center;
         align-items: center;
     }
@@ -239,9 +239,27 @@ p.card-info {
     .logos {
         margin-top: 160px;
         border: none;
+        justify-items: center;
+        align-items: center;
+        
+    }
+    .card-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        margin-top: 10px;
+        margin: 0 auto;
+        
+       
+    }
+    .card{
         justify-content: center;
         align-items: center;
+    }
+    .card-head{
+        margin-top: 150px;
         text-align: center;
     }
-
+    
 }
