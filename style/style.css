@@ -96,7 +96,7 @@ body {
     margin: 0 auto;
     margin-top: 120px;
     justify-content: center;
-    align-items: center;
+    align-items: center;margin-bottom: 100px;
 }
 
 .logo {
@@ -121,6 +121,7 @@ body {
     gap: 30px;
     max-width: 1110px;
     margin: 0 auto;
+    
 }
 
 .card-head {
@@ -142,6 +143,16 @@ body {
     margin-bottom: 0;
     margin-top: 0px;
 
+}
+.see-more{
+    max-width: 1110px;
+    margin: 20px auto;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 9px;
 }
 
 .card>img {
@@ -174,6 +185,38 @@ p.card-info {
     color: rgba(94, 99, 102, 1);
     align-items: center;
     margin-top: 0px;
+}
+
+/* featured section */
+.btn-primary-2{
+    width: 155px;
+    height: 44px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+}
+.featured-section{
+    max-width: 1160px;
+    margin: 0 auto;
+    gap: 125px;
+    margin-top: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-content h3{
+    font-size: 38px;
+    font-weight: bold;
+    color: #0A0826;
+    margin: 0px;
+}
+.feature-content p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #6C6C6C;
+    margin-bottom: 20px;
 }
 
 
