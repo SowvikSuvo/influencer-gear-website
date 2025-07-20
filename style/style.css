@@ -219,6 +219,34 @@ p.card-info {
     margin-bottom: 20px;
 }
 
+/* footer styles */
+
+.footer{
+    background-color:rgb(10, 8, 38);
+    height: 200px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.footer-content h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.footer-content p{
+    font-size: 14;
+    font-weight: bold;
+}
+.icon{
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 
 
 
