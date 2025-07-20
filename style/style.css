@@ -96,7 +96,8 @@ body {
     margin: 0 auto;
     margin-top: 120px;
     justify-content: center;
-    align-items: center;margin-bottom: 100px;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -121,7 +122,7 @@ body {
     gap: 30px;
     max-width: 1110px;
     margin: 0 auto;
-    
+
 }
 
 .card-head {
@@ -144,7 +145,8 @@ body {
     margin-top: 0px;
 
 }
-.see-more{
+
+.see-more {
     max-width: 1110px;
     margin: 20px auto;
     color: #E02C6D;
@@ -188,7 +190,7 @@ p.card-info {
 }
 
 /* featured section */
-.btn-primary-2{
+.btn-primary-2 {
     width: 155px;
     height: 44px;
     border-radius: 5px;
@@ -198,7 +200,8 @@ p.card-info {
     background-color: #E02C6D;
     color: #FFFFFF;
 }
-.featured-section{
+
+.featured-section {
     max-width: 1160px;
     margin: 0 auto;
     gap: 125px;
@@ -206,13 +209,15 @@ p.card-info {
     justify-content: space-between;
     align-items: center;
 }
-.feature-content h3{
+
+.feature-content h3 {
     font-size: 38px;
     font-weight: bold;
     color: #0A0826;
     margin: 0px;
 }
-.feature-content p{
+
+.feature-content p {
     font-size: 16px;
     font-weight: bold;
     color: #6C6C6C;
@@ -221,8 +226,8 @@ p.card-info {
 
 /* footer styles */
 
-.footer{
-    background-color:rgb(10, 8, 38);
+.footer {
+    background-color: rgb(10, 8, 38);
     height: 200px;
     margin-top: 100px;
     justify-content: center;
@@ -230,16 +235,19 @@ p.card-info {
     text-align: center;
     color: white;
 }
-.footer-content h3{
+
+.footer-content h3 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 0;
 }
-.footer-content p{
+
+.footer-content p {
     font-size: 14;
     font-weight: bold;
 }
-.icon{
+
+.icon {
     gap: 30px;
     align-items: center;
     justify-content: center;
@@ -256,7 +264,8 @@ p.card-info {
 
     .nav-banner,
     .nav-link,
-    .btn-primary {
+    .btn-primary,
+    .featured-section {
         flex-direction: column;
     }
 
@@ -272,7 +281,7 @@ p.card-info {
     }
 
     .image {
-       width: 100%;
+        width: 100%;
         margin-top: 5px;
         text-align: center;
         justify-content: center;
@@ -312,25 +321,40 @@ p.card-info {
         border: none;
         justify-items: center;
         align-items: center;
-        
+
     }
-    .card-section{
+
+    .card-section {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
         align-items: center;
         margin-top: 10px;
         margin: 0 auto;
-        
-       
+
+
     }
-    .card{
+
+    .card {
         justify-content: center;
         align-items: center;
     }
-    .card-head{
+
+    .card-head {
         margin-top: 150px;
         text-align: center;
     }
-    
+
+    .featured-section {
+        margin-top: 50px;
+        gap: 20px;
+    }
+    footer{
+        margin-top: 10px;
+    }
+    .see-more{
+        align-items: center;
+        justify-content: center;
+    }
+
 }
